@@ -5,7 +5,7 @@ sap.ui.define([
 		"use strict";
 
 		return BaseController.extend("com.soa.controller.App", {
-// for test purpose
+// for test purpose test2
 			onInit : function () {
 				var oViewModel,
 					fnSetAppNotBusy,
