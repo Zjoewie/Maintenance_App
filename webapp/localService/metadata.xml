@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0"
+    xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+    xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+    xmlns:sap="http://www.sap.com/Protocols/SAPData">
+    <edmx:DataServices m:DataServiceVersion="2.0">
+        <Schema Namespace="Z_ACA33_TESTS_THREI_SRV" xml:lang="en" sap:schema-version="1"
+            xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+            <EntityType Name="Equipment" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ID"/>
+                </Key>
+                <Property Name="ID" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="EquipmentID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="EqName" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Equipment" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="EqDescription" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="EqState" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="State" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="LastCheckDate" Type="Edm.DateTime" Nullable="false" Precision="0" sap:unicode="false" sap:label="Last check" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="LastRepairDate" Type="Edm.DateTime" Nullable="false" Precision="0" sap:unicode="false" sap:label="Last repair" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="LastRepairDescr" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Repair description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Site" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Site" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Location" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Location" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="EmployeeUname" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Employee" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Icon" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Icon" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="OrderID" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Order Id" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="Checkpoint" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ID"/>
+                </Key>
+                <Property Name="ID" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="EqName" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Equipment" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="SortOrder" Type="Edm.SByte" Nullable="false" sap:unicode="false" sap:label="Sort order" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Description" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="CpState" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="State" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <NavigationProperty Name="EqCp" Relationship="Z_ACA33_TESTS_THREI_SRV.EQCP" FromRole="ToRole_EQCP" ToRole="FromRole_EQCP" sap:label="Equipment"/>
+            </EntityType>
+            <EntityType Name="Issue" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ID"/>
+                </Key>
+                <Property Name="ID" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Issue id" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="IsDateTime" Type="Edm.DateTime" Nullable="false" Precision="0" sap:unicode="false" sap:label="Date and time" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="IsType" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Type of Issue" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="IsUname" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Username" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="FixingTime" Type="Edm.Decimal" Nullable="false" Precision="31" Scale="0" sap:unicode="false" sap:label="Fixing time spent" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="TimeUnit" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="time unit" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="IsDescription" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <NavigationProperty Name="eqis" Relationship="Z_ACA33_TESTS_THREI_SRV.EQIS" FromRole="ToRole_EQIS" ToRole="FromRole_EQIS" sap:label="Equipment"/>
+            </EntityType>
+            <Association Name="EQCP" sap:content-version="1" sap:label="Checkpoint">
+                <End Type="Z_ACA33_TESTS_THREI_SRV.Equipment" Multiplicity="*" Role="FromRole_EQCP"/>
+                <End Type="Z_ACA33_TESTS_THREI_SRV.Checkpoint" Multiplicity="0..1" Role="ToRole_EQCP"/>
+            </Association>
+            <Association Name="EQIS" sap:content-version="1" sap:label="Issue">
+                <End Type="Z_ACA33_TESTS_THREI_SRV.Equipment" Multiplicity="*" Role="FromRole_EQIS"/>
+                <End Type="Z_ACA33_TESTS_THREI_SRV.Issue" Multiplicity="0..1" Role="ToRole_EQIS"/>
+            </Association>
+            <EntityContainer Name="Z_ACA33_TESTS_THREI_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
+                <EntitySet Name="EquipmentSet" EntityType="Z_ACA33_TESTS_THREI_SRV.Equipment" sap:label="Equipments" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:searchable="true" sap:requires-filter="true" sap:content-version="1"/>
+                <EntitySet Name="CheckpointSet" EntityType="Z_ACA33_TESTS_THREI_SRV.Checkpoint" sap:label="Checkpoints" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:searchable="true" sap:addressable="false" sap:content-version="1"/>
+                <EntitySet Name="IssueSet" EntityType="Z_ACA33_TESTS_THREI_SRV.Issue" sap:label="Issues" sap:searchable="true" sap:addressable="false" sap:content-version="1"/>
+                <AssociationSet Name="EQCP_AssocSet" Association="Z_ACA33_TESTS_THREI_SRV.EQCP" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="EquipmentSet" Role="FromRole_EQCP"/>
+                    <End EntitySet="CheckpointSet" Role="ToRole_EQCP"/>
+                </AssociationSet>
+                <AssociationSet Name="EQIS_AssocSet" Association="Z_ACA33_TESTS_THREI_SRV.EQIS" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="EquipmentSet" Role="FromRole_EQIS"/>
+                    <End EntitySet="IssueSet" Role="ToRole_EQIS"/>
+                </AssociationSet>
+            </EntityContainer>
+            <atom:link rel="self" href="http://psadc-hanadb3.sap.soapeople.com:55100/sap/opu/odata/sap/Z_ACA33_TESTS_THREI_SRV/$metadata"
+                xmlns:atom="http://www.w3.org/2005/Atom"/>
+                <atom:link rel="latest-version" href="http://psadc-hanadb3.sap.soapeople.com:55100/sap/opu/odata/sap/Z_ACA33_TESTS_THREI_SRV/$metadata"
+                    xmlns:atom="http://www.w3.org/2005/Atom"/>
+                </Schema>
+            </edmx:DataServices>
+        </edmx:Edmx>

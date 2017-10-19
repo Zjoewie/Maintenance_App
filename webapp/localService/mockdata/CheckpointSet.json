@@ -1,0 +1,151 @@
+[{
+	"ID": "ID 1",
+	"EqName": "EqName 1",
+	"SortOrder": 6,
+	"Description": "Description 1",
+	"CpState": "CpState 1",
+	"__metadata": {
+		"uri": "CheckpointSet('ID%201')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Checkpoint"
+	},
+	"EqCp": {
+		"__deferred": {
+			"uri": "CheckpointSet('ID%201')/EqCp"
+		}
+	}
+}, {
+	"ID": "ID 2",
+	"EqName": "EqName 2",
+	"SortOrder": 1,
+	"Description": "Description 2",
+	"CpState": "CpState 2",
+	"__metadata": {
+		"uri": "CheckpointSet('ID%202')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Checkpoint"
+	},
+	"EqCp": {
+		"__deferred": {
+			"uri": "CheckpointSet('ID%202')/EqCp"
+		}
+	}
+}, {
+	"ID": "ID 3",
+	"EqName": "EqName 3",
+	"SortOrder": 3,
+	"Description": "Description 3 tessssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssst",
+	"CpState": "CpState 3",
+	"__metadata": {
+		"uri": "CheckpointSet('ID%203')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Checkpoint"
+	},
+	"EqCp": {
+		"__deferred": {
+			"uri": "CheckpointSet('ID%203')/EqCp"
+		}
+	}
+}, {
+	"ID": "ID 4",
+	"EqName": "EqName 4",
+	"SortOrder": 9,
+	"Description": "Description 4",
+	"CpState": "CpState 4",
+	"__metadata": {
+		"uri": "CheckpointSet('ID%204')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Checkpoint"
+	},
+	"EqCp": {
+		"__deferred": {
+			"uri": "CheckpointSet('ID%204')/EqCp"
+		}
+	}
+}, {
+	"ID": "ID 5",
+	"EqName": "EqName 5",
+	"SortOrder": 2,
+	"Description": "Description 5",
+	"CpState": "CpState 5",
+	"__metadata": {
+		"uri": "CheckpointSet('ID%205')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Checkpoint"
+	},
+	"EqCp": {
+		"__deferred": {
+			"uri": "CheckpointSet('ID%205')/EqCp"
+		}
+	}
+}, {
+	"ID": "ID 6",
+	"EqName": "EqName 6",
+	"SortOrder": 5,
+	"Description": "Description 6",
+	"CpState": "CpState 6",
+	"__metadata": {
+		"uri": "CheckpointSet('ID%206')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Checkpoint"
+	},
+	"EqCp": {
+		"__deferred": {
+			"uri": "CheckpointSet('ID%206')/EqCp"
+		}
+	}
+}, {
+	"ID": "ID 7",
+	"EqName": "EqName 7",
+	"SortOrder": 0,
+	"Description": "Description 7",
+	"CpState": "CpState 7",
+	"__metadata": {
+		"uri": "CheckpointSet('ID%207')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Checkpoint"
+	},
+	"EqCp": {
+		"__deferred": {
+			"uri": "CheckpointSet('ID%207')/EqCp"
+		}
+	}
+}, {
+	"ID": "ID 8",
+	"EqName": "EqName 8",
+	"SortOrder": 9,
+	"Description": "Description 8",
+	"CpState": "CpState 8",
+	"__metadata": {
+		"uri": "CheckpointSet('ID%208')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Checkpoint"
+	},
+	"EqCp": {
+		"__deferred": {
+			"uri": "CheckpointSet('ID%208')/EqCp"
+		}
+	}
+}, {
+	"ID": "ID 9",
+	"EqName": "EqName 9",
+	"SortOrder": 0,
+	"Description": "Description 9",
+	"CpState": "CpState 9",
+	"__metadata": {
+		"uri": "CheckpointSet('ID%209')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Checkpoint"
+	},
+	"EqCp": {
+		"__deferred": {
+			"uri": "CheckpointSet('ID%209')/EqCp"
+		}
+	}
+}, {
+	"ID": "ID 10",
+	"EqName": "EqName 10",
+	"SortOrder": 1,
+	"Description": "Description 10",
+	"CpState": "CpState 10",
+	"__metadata": {
+		"uri": "CheckpointSet('ID%2010')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Checkpoint"
+	},
+	"EqCp": {
+		"__deferred": {
+			"uri": "CheckpointSet('ID%2010')/EqCp"
+		}
+	}
+}]

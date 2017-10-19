@@ -1,0 +1,127 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:footerbar="sap.ushell.ui.footerbar" xmlns:layout="sap.ui.layout" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core" controllerName="com.soa.controller.Detail">
+	<semantic:DetailPage id="page" navButtonPress="onNavBack" showNavButton="{device>/system/phone}" title="{i18n>detailTitle}" busy="{detailView>/busy}" busyIndicatorDelay="{detailView>/delay}">
+		<semantic:content>
+
+			<ObjectHeader id="objectHeader" title="{EqName}" backgroundDesign="Solid" condensed="true">
+				<attributes>
+							<ObjectAttribute text="{EqState}"/>
+
+						</attributes>
+				<firstStatus>
+					<ObjectStatus text="{EqState}" state="None"/>
+				</firstStatus>
+			</ObjectHeader>
+
+			<IconTabBar id="iconTabBar" class="sapUiResponsiveContentPadding">
+				<items>
+					
+
+					
+					<IconTabFilter id="iconTabBarFilter1" icon="sap-icon://hint" tooltip="{i18n>detailIconTabBarInfo}">
+						<content>
+							<form:SimpleForm layout="ResponsiveLayout" editable="false" visible="true">
+								<!--minWidth="-1"  maxContainerCols="2"-->
+								
+								<form:title/>
+								<form:content>
+									<!--<Label text="Description" design="Standard" width="auto" required="false" textAlign="Begin" textDirection="Inherit"/>-->
+									<!--<Text text="{EqDescription}" width="300px" maxLines="1" wrapping="true" textAlign="Begin" textDirection="Inherit"/>-->
+									<!--<Label text="Location" design="Standard" width="auto" required="false" textAlign="Begin" textDirection="Inherit"/>-->
+									<!--<Text text="{Location}" width="300px" maxLines="4" wrapping="true" textAlign="Begin" textDirection="Inherit"/>-->
+									<!--<Label text="Size" design="Standard" width="auto" required="false" textAlign="Begin" textDirection="Inherit"/>-->
+									<!--<Text text="{Site}" width="300px" maxLines="1" wrapping="true" textAlign="Begin" textDirection="Inherit"/>-->
+									<!--<Label text="Last Check Date" design="Standard" width="auto" required="false" textAlign="Begin" textDirection="Inherit"/>-->
+									<!--<Text text="{LastCheckDate}" width="300px" maxLines="1" wrapping="true" textAlign="Begin" textDirection="Inherit"/>-->
+									<!--<Label text="Last Repair Date" design="Standard" width="auto" required="false" textAlign="Begin" textDirection="Inherit"/>-->
+									<!--<Text text="{LastRepairDate}" width="300px" maxLines="1" wrapping="true" textAlign="Begin" textDirection="Inherit"/>-->
+									<!--<Label text="Last Repair Description" design="Standard" width="auto" required="false" textAlign="Begin" textDirection="Inherit"/>-->
+									<!--<Text text="{LastRepairDescr}" width="300px" maxLines="1" wrapping="true" textAlign="Begin" textDirection="Inherit"/>-->
+									<Label text="Description"/>
+									<Text text="{EqDescription}"/>
+									<Label text="Location"/>
+									<Text text="{Location}"/>
+									<Label text="Size"/>
+									<Text text="{Site}"/>
+									<Label text="Last Check Date"/>
+									<Text text="{LastCheckDate}"/>
+									<Label text="Last Repair Date"/>
+									<Text text="{LastRepairDate}"/>
+									<Label text="Last Repair Description"/>
+									<Text text="{LastRepairDescr}"/>
+								
+								</form:content>
+							</form:SimpleForm>
+						</content>
+					</IconTabFilter>
+					
+
+					
+					<IconTabFilter id="iconTabBarFilter2" icon="sap-icon://checklist-item" tooltip="{i18n>detailIconTabBarAttachments}">
+						<Table id="idProductsTable" mode="MultiSelect" items="{/CheckpointSet}">
+
+                            <columns>
+                                <Column hAlign="Begin"><Text text="Checkpoint"/></Column>
+                            </columns>
+                            <items>
+                                <ColumnListItem>
+                                    <cells>
+                                        <!--<ObjectIdentifier title="{Name}" text="{ProductId}"/>-->
+                                        <Text text="{Description}"/>
+                                        <!--<Text text="{CpState}"/>-->
+
+                                    </cells>
+                                </ColumnListItem>
+                            </items>
+                        </Table>
+				
+						<!--<Table width="100%" noDataText="No data" mode="MultiSelect" items="{CheckpointSet}" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false">-->
+                                <!--<headerToolbar/>-->
+      <!--                          <columns>-->
+      <!--                              <Column width="50px" hAlign="Left" vAlign="Top" minScreenWidth="Phone" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">-->
+      <!--                                  <header>-->
+      <!--                                      <Text text="Status" width="50px" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>-->
+      <!--                                  </header>-->
+      <!--                                  <footer/>-->
+      <!--                              </Column>-->
+      <!--                              <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Phone" demandPopin="true" popinDisplay="Block" mergeDuplicates="false">-->
+      <!--                                  <header>-->
+      <!--                                      <Text text="Checkpoint" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>-->
+      <!--                                  </header>-->
+      <!--                                  <footer/>-->
+      <!--                              </Column>-->
+ 
+      <!--                          </columns>-->
+      <!--                          <items>-->
+      <!--                              <ColumnListItem type="Active">-->
+      <!--                                  <cells>-->
+      <!--                                      <Text text="{Description}}" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>-->
+                                            <!--<Text  binding="{Equipment}" text="{Description}" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>-->
+                                            <!--<Text text="{ReleaseDate}" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>-->
+                                            <!--<ObjectIdentifier title="{ProductDescription}" text="{MaterialFormula}" titleActive="false" visible="true"/>-->
+                                            <!--<ObjectIdentifier title="{DeliveryDate}" text="{ShipToPlantDescription1}" titleActive="false" visible="true"/>-->
+                                            <!--<ObjectNumber number="{path: 'Value', type: 'sap.ui.model.type.Float', formatOptions: { maxFractionDigits: 2 }}" unit="{Currency}" emphasized="true" state="None"/>-->
+      <!--                                  </cells>-->
+      <!--                              </ColumnListItem>-->
+      <!--                          </items>-->
+      <!--                      </Table>-->
+					</IconTabFilter>
+					
+
+				
+				</items>
+			</IconTabBar>
+		</semantic:content>
+		<!--<semantic:sendEmailAction>-->
+		<!--	<semantic:SendEmailAction id="shareEmail" press="onShareEmailPress"/>-->
+		<!--</semantic:sendEmailAction>-->
+		<!--<semantic:sendEmailAction>-->
+		<!--	<semantic:SendEmailAction id="shareEmail" press="onShareEmailPress"/>-->
+		<!--</semantic:sendEmailAction>-->
+		<!--<semantic:shareInJamAction>-->
+		<!--	<semantic:ShareInJamAction id="shareInJam" visible="{FLP>/isShareInJamActive}" press="onShareInJamPress"/>-->
+		<!--</semantic:shareInJamAction>-->
+		<!--<semantic:saveAsTileAction>-->
+		<!--	<footerbar:AddBookmarkButton id="shareTile" title="{detailView>/saveAsTileTitle}"/>-->
+		<!--</semantic:saveAsTileAction>-->
+	</semantic:DetailPage>
+</mvc:View>

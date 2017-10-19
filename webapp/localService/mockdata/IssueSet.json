@@ -1,0 +1,171 @@
+[{
+	"ID": "ID 1",
+	"IsDateTime": "/Date(1208295236000)/",
+	"IsType": "IsType 1",
+	"IsUname": "IsUname 1",
+	"FixingTime": 6889.73,
+	"TimeUnit": "TimeUnit 1",
+	"IsDescription": "IsDescription 1",
+	"__metadata": {
+		"uri": "IssueSet('ID%201')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Issue"
+	},
+	"eqis": {
+		"__deferred": {
+			"uri": "IssueSet('ID%201')/eqis"
+		}
+	}
+}, {
+	"ID": "ID 2",
+	"IsDateTime": "/Date(1261521236000)/",
+	"IsType": "IsType 2",
+	"IsUname": "IsUname 2",
+	"FixingTime": 7448.24,
+	"TimeUnit": "TimeUnit 2",
+	"IsDescription": "IsDescription 2",
+	"__metadata": {
+		"uri": "IssueSet('ID%202')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Issue"
+	},
+	"eqis": {
+		"__deferred": {
+			"uri": "IssueSet('ID%202')/eqis"
+		}
+	}
+}, {
+	"ID": "ID 3",
+	"IsDateTime": "/Date(1165444436000)/",
+	"IsType": "IsType 3",
+	"IsUname": "IsUname 3",
+	"FixingTime": 6021.17,
+	"TimeUnit": "TimeUnit 3",
+	"IsDescription": "IsDescription 3",
+	"__metadata": {
+		"uri": "IssueSet('ID%203')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Issue"
+	},
+	"eqis": {
+		"__deferred": {
+			"uri": "IssueSet('ID%203')/eqis"
+		}
+	}
+}, {
+	"ID": "ID 4",
+	"IsDateTime": "/Date(1495143236000)/",
+	"IsType": "IsType 4",
+	"IsUname": "IsUname 4",
+	"FixingTime": 9353.35,
+	"TimeUnit": "TimeUnit 4",
+	"IsDescription": "IsDescription 4",
+	"__metadata": {
+		"uri": "IssueSet('ID%204')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Issue"
+	},
+	"eqis": {
+		"__deferred": {
+			"uri": "IssueSet('ID%204')/eqis"
+		}
+	}
+}, {
+	"ID": "ID 5",
+	"IsDateTime": "/Date(982190036000)/",
+	"IsType": "IsType 5",
+	"IsUname": "IsUname 5",
+	"FixingTime": 7628.85,
+	"TimeUnit": "TimeUnit 5",
+	"IsDescription": "IsDescription 5",
+	"__metadata": {
+		"uri": "IssueSet('ID%205')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Issue"
+	},
+	"eqis": {
+		"__deferred": {
+			"uri": "IssueSet('ID%205')/eqis"
+		}
+	}
+}, {
+	"ID": "ID 6",
+	"IsDateTime": "/Date(1133562836000)/",
+	"IsType": "IsType 6",
+	"IsUname": "IsUname 6",
+	"FixingTime": 1671.78,
+	"TimeUnit": "TimeUnit 6",
+	"IsDescription": "IsDescription 6",
+	"__metadata": {
+		"uri": "IssueSet('ID%206')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Issue"
+	},
+	"eqis": {
+		"__deferred": {
+			"uri": "IssueSet('ID%206')/eqis"
+		}
+	}
+}, {
+	"ID": "ID 7",
+	"IsDateTime": "/Date(1387492436000)/",
+	"IsType": "IsType 7",
+	"IsUname": "IsUname 7",
+	"FixingTime": 3692.58,
+	"TimeUnit": "TimeUnit 7",
+	"IsDescription": "IsDescription 7",
+	"__metadata": {
+		"uri": "IssueSet('ID%207')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Issue"
+	},
+	"eqis": {
+		"__deferred": {
+			"uri": "IssueSet('ID%207')/eqis"
+		}
+	}
+}, {
+	"ID": "ID 8",
+	"IsDateTime": "/Date(1315085636000)/",
+	"IsType": "IsType 8",
+	"IsUname": "IsUname 8",
+	"FixingTime": 8041.89,
+	"TimeUnit": "TimeUnit 8",
+	"IsDescription": "IsDescription 8",
+	"__metadata": {
+		"uri": "IssueSet('ID%208')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Issue"
+	},
+	"eqis": {
+		"__deferred": {
+			"uri": "IssueSet('ID%208')/eqis"
+		}
+	}
+}, {
+	"ID": "ID 9",
+	"IsDateTime": "/Date(1468445636000)/",
+	"IsType": "IsType 9",
+	"IsUname": "IsUname 9",
+	"FixingTime": 889.37,
+	"TimeUnit": "TimeUnit 9",
+	"IsDescription": "IsDescription 9",
+	"__metadata": {
+		"uri": "IssueSet('ID%209')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Issue"
+	},
+	"eqis": {
+		"__deferred": {
+			"uri": "IssueSet('ID%209')/eqis"
+		}
+	}
+}, {
+	"ID": "ID 10",
+	"IsDateTime": "/Date(1329950036000)/",
+	"IsType": "IsType 10",
+	"IsUname": "IsUname 10",
+	"FixingTime": 7182.93,
+	"TimeUnit": "TimeUnit 10",
+	"IsDescription": "IsDescription 10",
+	"__metadata": {
+		"uri": "IssueSet('ID%2010')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Issue"
+	},
+	"eqis": {
+		"__deferred": {
+			"uri": "IssueSet('ID%2010')/eqis"
+		}
+	}
+}]

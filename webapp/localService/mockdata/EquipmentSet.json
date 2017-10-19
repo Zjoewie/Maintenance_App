@@ -1,0 +1,171 @@
+[{
+	"ID": "ID 1",
+	"EqName": "EqName 1",
+	"EqDescription": "EqDescription 1",
+	"EqState": "Pending",
+	"LastCheckDate": "/Date(1469828027000)/",
+	"LastRepairDate": "/Date(1076625227000)/",
+	"LastRepairDescr": "LastRepairDescr 1",
+	"Site": "Site 1",
+	"Location": "Location 1",
+	"EmployeeUname": "EmployeeUname 1",
+	"Icon": "Icon 1",
+	"OrderID": "OrderID 1",
+	"__metadata": {
+		"uri": "EquipmentSet('ID%201')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Equipment"
+	}
+}, {
+	"ID": "ID 2",
+	"EqName": "EqName 2",
+	"EqDescription": "EqDescription 2",
+	"EqState": "Pending",
+	"LastCheckDate": "/Date(1087940027000)/",
+	"LastRepairDate": "/Date(1196030027000)/",
+	"LastRepairDescr": "LastRepairDescr 2",
+	"Site": "Site 2",
+	"Location": "Location 2",
+	"EmployeeUname": "EmployeeUname 2",
+	"Icon": "Icon 2",
+	"OrderID": "OrderID 2",
+	"__metadata": {
+		"uri": "EquipmentSet('ID%202')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Equipment"
+	}
+}, {
+	"ID": "ID 3",
+	"EqName": "EqName 3",
+	"EqDescription": "EqDescription 3",
+	"EqState": "Pending",
+	"LastCheckDate": "/Date(1258065227000)/",
+	"LastRepairDate": "/Date(1166913227000)/",
+	"LastRepairDescr": "LastRepairDescr 3",
+	"Site": "Site 3",
+	"Location": "Location 3",
+	"EmployeeUname": "EmployeeUname 3",
+	"Icon": "Icon 3",
+	"OrderID": "OrderID 3",
+	"__metadata": {
+		"uri": "EquipmentSet('ID%203')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Equipment"
+	}
+}, {
+	"ID": "ID 4",
+	"EqName": "EqName 4",
+	"EqDescription": "EqDescription 4",
+	"EqState": "Pending",
+	"LastCheckDate": "/Date(1213479227000)/",
+	"LastRepairDate": "/Date(1422052427000)/",
+	"LastRepairDescr": "LastRepairDescr 4",
+	"Site": "Site 4",
+	"Location": "Location 4",
+	"EmployeeUname": "EmployeeUname 4",
+	"Icon": "Icon 4",
+	"OrderID": "OrderID 4",
+	"__metadata": {
+		"uri": "EquipmentSet('ID%204')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Equipment"
+	}
+}, {
+	"ID": "ID 5",
+	"EqName": "EqName 5",
+	"EqDescription": "EqDescription 5",
+	"EqState": "Check",
+	"LastCheckDate": "/Date(1377898427000)/",
+	"LastRepairDate": "/Date(1252100027000)/",
+	"LastRepairDescr": "LastRepairDescr 5",
+	"Site": "Site 5",
+	"Location": "Location 5",
+	"EmployeeUname": "EmployeeUname 5",
+	"Icon": "Icon 5",
+	"OrderID": "OrderID 5",
+	"__metadata": {
+		"uri": "EquipmentSet('ID%205')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Equipment"
+	}
+}, {
+	"ID": "ID 6",
+	"EqName": "EqName 6",
+	"EqDescription": "EqDescription 6",
+	"EqState": "Not Check",
+	"LastCheckDate": "/Date(1314999227000)/",
+	"LastRepairDate": "/Date(983831627000)/",
+	"LastRepairDescr": "LastRepairDescr 6",
+	"Site": "Site 6",
+	"Location": "Location 6",
+	"EmployeeUname": "EmployeeUname 6",
+	"Icon": "Icon 6",
+	"OrderID": "OrderID 6",
+	"__metadata": {
+		"uri": "EquipmentSet('ID%206')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Equipment"
+	}
+}, {
+	"ID": "ID 7",
+	"EqName": "EqName 7",
+	"EqDescription": "EqDescription 7",
+	"EqState": "Pending",
+	"LastCheckDate": "/Date(1289169227000)/",
+	"LastRepairDate": "/Date(950481227000)/",
+	"LastRepairDescr": "LastRepairDescr 7",
+	"Site": "Site 7",
+	"Location": "Location 7",
+	"EmployeeUname": "EmployeeUname 7",
+	"Icon": "Icon 7",
+	"OrderID": "OrderID 7",
+	"__metadata": {
+		"uri": "EquipmentSet('ID%207')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Equipment"
+	}
+}, {
+	"ID": "ID 8",
+	"EqName": "EqName 8",
+	"EqDescription": "EqDescription 8",
+	"EqState": "Pending",
+	"LastCheckDate": "/Date(1244583227000)/",
+	"LastRepairDate": "/Date(1127424827000)/",
+	"LastRepairDescr": "LastRepairDescr 8",
+	"Site": "Site 8",
+	"Location": "Location 8",
+	"EmployeeUname": "EmployeeUname 8",
+	"Icon": "Icon 8",
+	"OrderID": "OrderID 8",
+	"__metadata": {
+		"uri": "EquipmentSet('ID%208')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Equipment"
+	}
+}, {
+	"ID": "ID 9",
+	"EqName": "EqName 9",
+	"EqDescription": "EqDescription 9",
+	"EqState": "Pending",
+	"LastCheckDate": "/Date(1149716027000)/",
+	"LastRepairDate": "/Date(991517627000)/",
+	"LastRepairDescr": "LastRepairDescr 9",
+	"Site": "Site 9",
+	"Location": "Location 9",
+	"EmployeeUname": "EmployeeUname 9",
+	"Icon": "Icon 9",
+	"OrderID": "OrderID 9",
+	"__metadata": {
+		"uri": "EquipmentSet('ID%209')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Equipment"
+	}
+}, {
+	"ID": "ID 10",
+	"EqName": "EqName 10",
+	"EqDescription": "EqDescription 10",
+	"EqState": "Pending",
+	"LastCheckDate": "/Date(1057786427000)/",
+	"LastRepairDate": "/Date(1557264827000)/",
+	"LastRepairDescr": "LastRepairDescr 10",
+	"Site": "Site 10",
+	"Location": "Location 10",
+	"EmployeeUname": "EmployeeUname 10",
+	"Icon": "Icon 10",
+	"OrderID": "OrderID 10",
+	"__metadata": {
+		"uri": "EquipmentSet('ID%2010')",
+		"type": "Z_ACA33_TESTS_THREI_SRV.Equipment"
+	}
+}]
